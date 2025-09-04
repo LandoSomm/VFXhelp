@@ -1,0 +1,65 @@
+{
+  "name": "M_Impact",
+  "type": "material",
+  "material": {
+    "type": "unlit",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "opacity": {
+        "type": 1,
+        "value": "1"
+      },
+      "intensity": {
+        "type": 1,
+        "value": 1
+      },
+      "map": {
+        "type": 2,
+        "value": "9fa39e00-8dcc-4737-a142-0747ffb6b916"
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "specularMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9fa39e00-8dcc-4737-a142-0747ffb6b916"
+      },
+      "envMap": {
+        "type": 2
+      },
+      "combine": {
+        "type": 1
+      },
+      "reflectivity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1,
+        "value": "0"
+      }
+    },
+    "transparent": true,
+    "bloom": true
+  },
+  "id": "9fa39fba-1854-47ca-b0fc-77548c04ac3a"
+}

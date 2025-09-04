@@ -1,0 +1,121 @@
+{
+  "id": "uuvu76i94",
+  "name": "main",
+  "sceneId": "uuvu76i94",
+  "data": [
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "26f07656-0bd3-45ca-9fe4-34e3dc295fc4",
+      "name": "FX_FirePit",
+      "assetId": "9fabe9c0-8eda-4e8f-be98-1d7d9c23c4a3",
+      "position": [
+        -32.76572089101635,
+        2.1189926706412825,
+        -70.22622127556636
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
+    },
+    {
+      "id": "b9bd764f-dcee-4084-977f-d59f35bb42bf",
+      "name": "DiscMesh",
+      "assetId": "9fb1d7a5-f810-4b80-bf9b-641f406a3c0d",
+      "position": [
+        27.655388875080924,
+        6.232625281357653,
+        -70.51934159837968
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#cccccc",
+          "materialId": "9fa39fba-1854-47ca-b0fc-77548c04ac3a",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e866f487-3828-4674-8ba5-e345684f72eb",
+      "name": "Landscape",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "landscape",
+      "landscape": {
+        "options": {
+          "sectionSize": 100,
+          "sections": {
+            "x": 4,
+            "y": 4
+          },
+          "density": 40
+        },
+        "heightMaps": []
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "grass": {
+        "layers": []
+      }
+    }
+  ]
+}

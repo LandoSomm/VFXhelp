@@ -1,0 +1,373 @@
+{
+  "name": "FX_Impact",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "u199r35",
+        "name": "Expanding Circle",
+        "rate": {
+          "type": "once",
+          "count": 1,
+          "time": 0.5,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "re7815u",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": ".4"
+              }
+            }
+          },
+          {
+            "id": "onev9vi",
+            "type": "scaleComponents",
+            "params": {
+              "scale": {
+                "value": [
+                  2,
+                  0.5,
+                  2
+                ],
+                "type": 8
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "zflln91",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": 1,
+                "type": 1
+              },
+              "b": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "InQuart",
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "0sch105",
+            "type": "rotate",
+            "params": {
+              "rotation": {
+                "value": [
+                  0,
+                  1000,
+                  0
+                ],
+                "type": 8
+              },
+              "ease": {
+                "type": 22,
+                "value": "Linear"
+              }
+            }
+          },
+          {
+            "id": "gww8ozi",
+            "type": "scale",
+            "params": {
+              "a": {
+                "value": "0",
+                "type": 1
+              },
+              "b": {
+                "value": "5",
+                "type": 1
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "kpcp6nz",
+            "type": "changeColor",
+            "params": {
+              "a": {
+                "value": "#ffffff",
+                "type": 10
+              },
+              "b": {
+                "value": "#ff0000",
+                "type": 10
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "local",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          },
+          "assetId": "9fa3e745-5e90-4efa-8580-b0b461da5305"
+        }
+      },
+      {
+        "id": "gehwttf",
+        "name": "Expanding Circle (copy)",
+        "rate": {
+          "type": "once",
+          "count": 1,
+          "time": 0.5,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "re7815u",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": ".3"
+              }
+            }
+          },
+          {
+            "id": "onev9vi",
+            "type": "scaleComponents",
+            "params": {
+              "scale": {
+                "value": [
+                  2,
+                  0.5,
+                  2
+                ],
+                "type": 8
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "zflln91",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": 1,
+                "type": 1
+              },
+              "b": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "InQuart",
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "0sch105",
+            "type": "rotate",
+            "params": {
+              "rotation": {
+                "value": [
+                  0,
+                  1000,
+                  0
+                ],
+                "type": 8
+              },
+              "ease": {
+                "type": 22,
+                "value": "Linear"
+              }
+            }
+          },
+          {
+            "id": "gww8ozi",
+            "type": "scale",
+            "params": {
+              "a": {
+                "value": "0",
+                "type": 1
+              },
+              "b": {
+                "value": "5",
+                "type": 1
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "kpcp6nz",
+            "type": "changeColor",
+            "params": {
+              "a": {
+                "value": "#a6ff00",
+                "type": 10
+              },
+              "b": {
+                "value": "#ff0000",
+                "type": 10
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "local",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          },
+          "assetId": "9fa3e745-5e90-4efa-8580-b0b461da5305"
+        }
+      },
+      {
+        "id": "jd2as0f",
+        "name": "Flare",
+        "rate": {
+          "type": "once",
+          "count": 1,
+          "time": 0.5,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "jx82goz",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": ".2"
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "p8t7zno",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": 1,
+                "type": 1
+              },
+              "b": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "InQuart",
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "ri2f1qt",
+            "type": "scale",
+            "params": {
+              "a": {
+                "value": "",
+                "type": 1
+              },
+              "b": {
+                "value": "10",
+                "type": 1
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "sprite",
+          "texture": "9fa41120-c7a4-4739-8c04-cbcb2e4011d6",
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "additive",
+          "space": "local",
+          "softness": 0,
+          "intensity": 3,
+          "bloom": true,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          }
+        }
+      }
+    ]
+  },
+  "id": "9fa3eb02-1e7e-4ba8-9486-9f4f7e7e2ae7"
+}

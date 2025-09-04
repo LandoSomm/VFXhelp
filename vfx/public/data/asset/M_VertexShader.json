@@ -1,0 +1,39 @@
+{
+  "name": "M_VertexShader",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "texture": {
+        "type": 2
+      },
+      "speedX": {
+        "type": 1,
+        "value": 1
+      },
+      "speedY": {
+        "type": 1,
+        "value": 0
+      },
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      }
+    },
+    "shader": "ScrollingShader",
+    "transparent": true,
+    "outlines": true,
+    "outlineParams": {
+      "color": "#000000",
+      "thickness": 0.005,
+      "opacity": 1
+    },
+    "alphaTest": 1
+  },
+  "id": "9fcbcc73-b60c-45f6-9db4-64fa24344b7d"
+}

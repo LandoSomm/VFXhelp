@@ -1,0 +1,20 @@
+{
+  "name": "SM_CylinderMesh_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 1,
+    "collisions": {}
+  },
+  "id": "9fa3e745-5e90-4efa-8580-b0b461da5305",
+  "fileKey": "SM_CylinderMesh_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_CylinderMesh_2.fbx",
+  "materialAssignments": [
+    {
+      "color": "#cccccc",
+      "materialId": "9fa39fba-1854-47ca-b0fc-77548c04ac3a",
+      "name": ""
+    }
+  ]
+}

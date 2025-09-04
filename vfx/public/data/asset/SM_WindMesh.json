@@ -1,0 +1,13 @@
+{
+  "name": "SM_WindMesh",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.1,
+    "collisions": {}
+  },
+  "id": "9fb832e5-2bfa-4755-9f83-f7f7f9273ed7",
+  "fileKey": "SM_WindMesh.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Maya Projects\\FBX\\SM_WindMesh.fbx"
+}

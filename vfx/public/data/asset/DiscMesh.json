@@ -1,0 +1,20 @@
+{
+  "name": "DiscMesh",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.05,
+    "collisions": {}
+  },
+  "id": "9fb1d7a5-f810-4b80-bf9b-641f406a3c0d",
+  "fileKey": "DiscMesh.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\DiscMesh.fbx",
+  "materialAssignments": [
+    {
+      "color": "#cccccc",
+      "materialId": "9fcbcc73-b60c-45f6-9db4-64fa24344b7d",
+      "name": ""
+    }
+  ]
+}

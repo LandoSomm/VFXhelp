@@ -1,0 +1,73 @@
+{
+  "name": "FX_Circle",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "xjjf5vx",
+        "name": "Emitter",
+        "rate": {
+          "type": "once",
+          "count": 1,
+          "time": null,
+          "delay": null
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "3jtz2de",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": "1"
+              }
+            }
+          },
+          {
+            "id": "oeedpto",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": "5",
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": "9fb83729-ca18-449f-9f91-bc27f2a7219d",
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "additive",
+          "space": "world",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          },
+          "scale": 1,
+          "assetId": "9fb1d7a5-f810-4b80-bf9b-641f406a3c0d"
+        }
+      }
+    ]
+  },
+  "id": "9fcbc3da-717a-4c1e-8134-bd52f1c4c02b"
+}

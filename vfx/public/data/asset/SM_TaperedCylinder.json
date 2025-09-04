@@ -1,0 +1,20 @@
+{
+  "name": "SM_TaperedCylinder",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.1,
+    "collisions": {}
+  },
+  "id": "9fc026c2-7820-4185-b966-9b27041db9c8",
+  "fileKey": "SM_TaperedCylinder.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_TaperedCylinder.fbx",
+  "materialAssignments": [
+    {
+      "color": "#cccccc",
+      "materialId": "9fb8334a-4f26-4494-a54f-f5174b4fa71d",
+      "name": ""
+    }
+  ]
+}
