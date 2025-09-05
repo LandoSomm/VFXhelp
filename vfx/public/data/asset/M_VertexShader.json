@@ -10,30 +10,32 @@
     "side": 2,
     "shaderParams": {
       "texture": {
-        "type": 2
+        "type": 2,
+        "value": "9fb1d848-a16e-4d8c-8c46-76fa565d5743"
       },
       "speedX": {
         "type": 1,
-        "value": 1
+        "value": "0"
       },
       "speedY": {
         "type": 1,
-        "value": 0
+        "value": "1"
       },
       "color": {
         "type": 10,
         "value": "#ffffff"
       }
     },
-    "shader": "ScrollingShader",
+    "shader": "PanningVertexShader",
     "transparent": true,
-    "outlines": true,
+    "outlines": false,
     "outlineParams": {
       "color": "#000000",
       "thickness": 0.005,
       "opacity": 1
     },
-    "alphaTest": 1
+    "alphaTest": 1,
+    "bloom": false
   },
   "id": "9fcbcc73-b60c-45f6-9db4-64fa24344b7d"
 }

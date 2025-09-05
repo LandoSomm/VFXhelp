@@ -44,7 +44,25 @@
             }
           }
         ],
-        "behaviours": [],
+        "behaviours": [
+          {
+            "id": "33wxhjw",
+            "type": "changeColor",
+            "params": {
+              "a": {
+                "value": "#ff0000",
+                "type": 10
+              },
+              "b": {
+                "value": "#73ff00",
+                "type": 10
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          }
+        ],
         "children": [],
         "output": {
           "type": "mesh",
@@ -65,7 +83,7 @@
           },
           "scale": 1,
           "assetId": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
-          "shader": "PanningVertexShader",
+          "shader": null,
           "shaderParams": {
             "texture": {
               "type": 2,

@@ -23,12 +23,12 @@ export default class ScrollingShader extends NodeShader {
     const vertexColorMask = varying(attributes.color.r)
 
 
-    return {
-      color: rgba(
-        textureSample.rgb.multiply(rgb(this.color)), // RGB stays the same
-        textureSample.a.multiply(vertexColorMask)          // 👈 alpha masked by vertex color
-      ),
-      transparent: true,
-    }
+  return {
+    color: rgba(
+      textureSample.rgb.multiply(rgb(this.color)),
+      textureSample.a.multiply(vertexColorMask) // 👈 use alpha channel
+    ),
+    transparent: true,
+}
   }
 }

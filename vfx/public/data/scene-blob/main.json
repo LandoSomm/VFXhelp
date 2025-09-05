@@ -94,6 +94,37 @@
         "restitution": 0.5,
         "mass": 1
       }
+    },
+    {
+      "id": "ee517984-46a5-45cc-9e70-d534f125ce37",
+      "name": "SM_HalfSphere",
+      "assetId": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
+      "position": [
+        -13.235912709789112,
+        0,
+        -130.99438086321695
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
     }
   ]
 }
