@@ -3,7 +3,8 @@
   "type": "mesh",
   "collisionDetection": true,
   "mesh": {
-    "rescale": 0.01
+    "rescale": 0.01,
+    "collisions": {}
   },
   "id": "9fcdda3a-a410-4d6c-9088-faa08d366431",
   "fileKey": "SM_Swordslash_1.fbx",

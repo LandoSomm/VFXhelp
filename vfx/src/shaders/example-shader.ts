@@ -1,4 +1,4 @@
-import { rgb, standardMaterial } from "@hology/core/shader-nodes";
+import { attributes, rgb, standardMaterial, varying } from "@hology/core/shader-nodes";
 import { NodeShader, NodeShaderOutput, Parameter } from "@hology/core/shader/shader";
 import { Color } from "three";
 
@@ -7,8 +7,12 @@ export class ExampleShader extends NodeShader {
   color: Color = new Color(0x000000)
 
   output(): NodeShaderOutput {
+
+    const vertexColorMask = varying(attributes.color.r)
+
     return {
-      color: standardMaterial({color: rgb(this.color)})
+      color: vertexColorMask
+      // color: standardMaterial({color: rgb(this.color)})
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "T_Voronoi",
+  "type": "texture",
+  "id": "9fce0265-e4cc-41e4-9448-f5ca708ba0a2",
+  "fileKey": "Watercaustics.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Adobe\\Substance Designer\\Textures\\MyOwn\\Watercaustics.png",
+  "texture": {
+    "flipY": true,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}

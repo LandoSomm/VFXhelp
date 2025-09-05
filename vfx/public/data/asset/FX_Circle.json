@@ -38,7 +38,7 @@
             "type": "scale",
             "params": {
               "scale": {
-                "value": "5",
+                "value": ".5",
                 "type": 1
               }
             }
@@ -64,7 +64,26 @@
             "mode": "loop"
           },
           "scale": 1,
-          "assetId": "9fb1d7a5-f810-4b80-bf9b-641f406a3c0d"
+          "assetId": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
+          "shader": "PanningVertexShader",
+          "shaderParams": {
+            "texture": {
+              "type": 2,
+              "value": "9fcdd81b-d186-4d26-abe3-ed2e5ff63d35"
+            },
+            "speedX": {
+              "type": 1,
+              "value": "0"
+            },
+            "speedY": {
+              "type": 1,
+              "value": "-1"
+            },
+            "color": {
+              "type": 10,
+              "value": "#ffffff"
+            }
+          }
         }
       }
     ]

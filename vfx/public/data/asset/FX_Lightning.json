@@ -7,7 +7,7 @@
         "id": "nv059wh",
         "name": "Emitter",
         "rate": {
-          "type": "continuous",
+          "type": "once",
           "count": 1,
           "time": 0.5,
           "delay": 0
@@ -29,7 +29,7 @@
             "params": {
               "duration": {
                 "type": 1,
-                "value": 1
+                "value": ".4"
               }
             }
           },
@@ -68,7 +68,7 @@
           "shaderParams": {
             "texture": {
               "type": 2,
-              "value": "9fb83729-ca18-449f-9f91-bc27f2a7219d"
+              "value": "9fcdd995-c22e-4ab3-9588-649d8b114273"
             },
             "speedX": {
               "type": 1,

@@ -1,0 +1,196 @@
+{
+  "name": "FX_SlashEffect",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "efs846n",
+        "name": "Slash",
+        "rate": {
+          "type": "once",
+          "count": 1,
+          "time": 0.5,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "6oqyzzu",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": ".5"
+              }
+            }
+          },
+          {
+            "id": "scz5g1o",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": ".1",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "rs412tp",
+            "type": "scaleComponents",
+            "params": {
+              "scale": {
+                "value": [
+                  1,
+                  0.1,
+                  1
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "eauzf2b",
+            "type": "positionPoint",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  12.8,
+                  0
+                ],
+                "type": 8
+              }
+            }
+          }
+        ],
+        "behaviours": [],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "local",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          },
+          "assetId": "9fcdda3a-a410-4d6c-9088-faa08d366431",
+          "shader": "SlashShader",
+          "shaderParams": {
+            "isParticle": {
+              "type": 4,
+              "value": true
+            },
+            "color1": {
+              "type": 10,
+              "value": "#c800ff"
+            },
+            "color2": {
+              "type": 10,
+              "value": "#eeff00"
+            },
+            "depthFade": {
+              "type": 1,
+              "value": "10"
+            },
+            "emissiveContrast": {
+              "type": 1,
+              "value": "11"
+            },
+            "emissivePower": {
+              "type": 1,
+              "value": "1"
+            },
+            "erosionAmount": {
+              "type": 1,
+              "value": "-1"
+            },
+            "erosionSpeedU": {
+              "type": 1,
+              "value": "0"
+            },
+            "erosionSpeedV": {
+              "type": 1,
+              "value": "0"
+            },
+            "erosionTileU": {
+              "type": 1,
+              "value": "1"
+            },
+            "erosionTileV": {
+              "type": 1,
+              "value": "1"
+            },
+            "masked": {
+              "type": 4,
+              "value": false
+            },
+            "noise": {
+              "type": 2,
+              "value": "9fcdd81b-c3a8-4802-a863-e0af545ca1b2"
+            },
+            "noisePower": {
+              "type": 1,
+              "value": ".3"
+            },
+            "noiseRangeContrast": {
+              "type": 1,
+              "value": "1"
+            },
+            "noiseSpeedU": {
+              "type": 1,
+              "value": ".1"
+            },
+            "noiseSpeedV": {
+              "type": 1,
+              "value": 0
+            },
+            "noiseTileU": {
+              "type": 1,
+              "value": "1"
+            },
+            "noiseTileV": {
+              "type": 1,
+              "value": "1"
+            },
+            "opacityContrastControl": {
+              "type": 1,
+              "value": "1"
+            },
+            "slashTexture": {
+              "type": 2,
+              "value": "9fa39e00-8dcc-4737-a142-0747ffb6b916"
+            },
+            "speedU": {
+              "type": 1,
+              "value": "1"
+            },
+            "voronoi": {
+              "type": 2,
+              "value": "9fce0265-e4cc-41e4-9448-f5ca708ba0a2"
+            },
+            "refractionStrength": {}
+          }
+        }
+      }
+    ]
+  },
+  "id": "9fcdfee5-114c-442d-806d-7d41999d1948"
+}
