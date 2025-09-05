@@ -1,7 +1,6 @@
 import { rgb, rgba, textureSampler2d, timeUniforms, varyingAttributes, vec2 } from "@hology/core/shader-nodes";
 import { NodeShader, NodeShaderOutput, Parameter } from "@hology/core/shader/shader";
 import { Color, Texture } from 'three';
-import { parameter } from "three/webgpu";
 
 export default class ScrollingShader extends NodeShader {
   @Parameter()

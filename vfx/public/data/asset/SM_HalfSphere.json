@@ -1,0 +1,12 @@
+{
+  "name": "SM_HalfSphere",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
+  "fileKey": "SM_HalfSphere.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_HalfSphere.fbx"
+}

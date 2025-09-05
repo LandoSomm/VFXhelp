@@ -1,0 +1,12 @@
+{
+  "name": "SM_TubeMesh",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fcddaac-da58-42af-a976-6211c7d9b66a",
+  "fileKey": "SM_TubeMesh.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_TubeMesh.fbx"
+}

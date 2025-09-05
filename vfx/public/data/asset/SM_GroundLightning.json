@@ -1,0 +1,12 @@
+{
+  "name": "SM_GroundLightning",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fcdda93-4b74-4b2b-a22b-d6f4a8a3713f",
+  "fileKey": "SM_GroundLightning.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_GroundLightning.fbx"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "FX_Lightning",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "nv059wh",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 1,
+          "time": 0.5,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "d1px1p1",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": 1
+              }
+            }
+          },
+          {
+            "id": "u7d70aw",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": "1",
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "opacityChannel": "alpha",
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          },
+          "assetId": "9fcddadf-39da-4ca4-9526-be91f81c2f7e",
+          "shader": "ScrollingShader",
+          "shaderParams": {
+            "texture": {
+              "type": 2,
+              "value": "9fb83729-ca18-449f-9f91-bc27f2a7219d"
+            },
+            "speedX": {
+              "type": 1,
+              "value": "0"
+            },
+            "speedY": {
+              "type": 1,
+              "value": "1"
+            },
+            "color": {
+              "type": 10,
+              "value": "#ffffff"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "id": "9fcdd619-6c18-420e-a999-7b59a8aba6a1"
+}

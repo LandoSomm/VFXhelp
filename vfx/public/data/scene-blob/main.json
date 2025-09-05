@@ -12,28 +12,6 @@
       }
     },
     {
-      "id": "26f07656-0bd3-45ca-9fe4-34e3dc295fc4",
-      "name": "FX_FirePit",
-      "assetId": "9fabe9c0-8eda-4e8f-be98-1d7d9c23c4a3",
-      "position": [
-        -32.76572089101635,
-        2.1189926706412825,
-        -70.22622127556636
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "vfx"
-    },
-    {
       "id": "e866f487-3828-4674-8ba5-e345684f72eb",
       "name": "Landscape",
       "position": [

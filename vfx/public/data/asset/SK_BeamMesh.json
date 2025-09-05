@@ -1,0 +1,12 @@
+{
+  "name": "SK_BeamMesh",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fcdd9d8-4a18-42db-8144-e05debfe745b",
+  "fileKey": "SK_BeamMesh.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SK_BeamMesh.fbx"
+}

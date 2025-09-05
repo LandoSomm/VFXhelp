@@ -1,0 +1,280 @@
+; FBX 7.7.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1004
+	FBXVersion: 7700
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2025
+		Month: 7
+		Day: 29
+		Hour: 12
+		Minute: 18
+		Second: 50
+		Millisecond: 653
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
+	OtherFlags:  {
+		TCDefinition: 127
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\svenn\Documents\Houdini\HoudiniExports\SK_BeamMesh.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\svenn\Documents\Houdini\HoudiniExports\SK_BeamMesh.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "SideFX Software"
+			P: "Original|ApplicationName", "KString", "", "", "Houdini"
+			P: "Original|ApplicationVersion", "KString", "", "", "20.5.613"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "29/07/2025 10:18:50.647"
+			P: "Original|FileName", "KString", "", "", "C:\Users\svenn\Documents\Houdini\HoudiniExports\SK_BeamMesh.fbx"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "SideFX Software"
+			P: "LastSaved|ApplicationName", "KString", "", "", "Houdini"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "20.5.613"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/07/2025 10:18:50.647"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\svenn"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\svenn\Swirls.hiplc"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 256344832, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 3
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 1
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 251341568, "Geometry::BeamLine", "Mesh" {
+		Vertices: *99 {
+			a: 0,0,-2.5,0,0,0,0,0,2.5,0,5,-2.5,0,5,0,0,5,2.5,0,10,-2.5,0,10,0,0,10,2.5,0,15.0000009536743,-2.5,0,15.0000009536743,0,0,15.0000009536743,2.5,0,20,-2.5,0,20,0,0,20,2.5,0,25,-2.5,0,25,0,0,25,2.5,0,30.0000019073486,-2.5,0,30.0000019073486,0,0,30.0000019073486,2.5,0,35,-2.5,0,35,0,0,35,2.5,0,40,-2.5,0,40,0,0,40,2.5,0,45,-2.5,0,45,0,0,45,2.5,0,50,-2.5,0,50,0,0,50,2.5
+		} 
+		PolygonVertexIndex: *80 {
+			a: 3,4,1,-1,4,5,2,-2,6,7,4,-4,7,8,5,-5,9,10,7,-7,10,11,8,-8,12,13,10,-10,13,14,11,-11,15,16,13,-13,16,17,14,-14,18,19,16,-16,19,20,17,-17,21,22,19,-19,22,23,20,-20,24,25,22,-22,25,26,23,-23,27,28,25,-25,28,29,26,-26,30,31,28,-28,31,32,29,-29
+		} 
+		GeometryVersion: 124
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "uv"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *66 {
+				a: 1,0.100000001490116,0.5,0.100000001490116,0.5,0,1,0,0,0.100000001490116,0,0,1,0.200000002980232,0.5,0.200000002980232,0,0.200000002980232,1,0.300000011920929,0.5,0.300000011920929,0,0.300000011920929,1,0.400000005960464,0.5,0.400000005960464,0,0.400000005960464,1,0.5,0.5,0.5,0,0.5,1,0.600000023841858,0.5,0.600000023841858,0,0.600000023841858,1,0.699999988079071,0.5,0.699999988079071,0,0.699999988079071,1,0.800000011920929,0.5,0.800000011920929,0,0.800000011920929,1,0.900000035762787,0.5,0.900000035762787,0,0.900000035762787,1,1,0.5,1,0,1
+			} 
+			UVIndex: *80 {
+				a: 0,1,2,3,1,4,5,2,6,7,1,0,7,8,4,1,9,10,7,6,10,11,8,7,12,13,10,9,13,14,11,10,15,16,13,12,16,17,14,13,18,19,16,15,19,20,17,16,21,22,19,18,22,23,20,19,24,25,22,21,25,26,23,22,27,28,25,24,28,29,26,25,30,31,28,27,31,32,29,28
+			} 
+		}
+		LayerElementUserData: 0 {
+			Version: 101
+			Name: "UserDataLayer0"
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			UserDataId: 0
+			UserDataArray:  {
+				UserDataType: "Integer"
+				UserDataName: "ENDS"
+				UserData: *33 {
+					a: 0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+				} 
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementUserData"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 250465152, "Model::BeamLine", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,90
+			P: "Visibility Inheritance", "Visibility Inheritance", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::BeamLine, Model::RootNode
+	C: "OO",250465152,0
+	
+	;Geometry::BeamLine, Model::BeamLine
+	C: "OO",251341568,250465152
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}

@@ -7,7 +7,7 @@
       "metalness": 0,
       "opacity": 1
     },
-    "side": 0,
+    "side": 2,
     "shaderParams": {
       "layers": {
         "type": 21,
@@ -22,7 +22,7 @@
             "params": {
               "texture": {
                 "type": 2,
-                "value": "9fa4133a-ceea-4fc5-b524-1d3315e38c45"
+                "value": "9fcdd81b-c3a8-4802-a863-e0af545ca1b2"
               },
               "channel": {
                 "type": 12,
@@ -50,7 +50,7 @@
               "scroll": {
                 "type": 6,
                 "value": [
-                  0,
+                  1,
                   0
                 ]
               },
@@ -62,7 +62,7 @@
               "offset": {
                 "type": 6,
                 "value": [
-                  1,
+                  0,
                   0
                 ]
               },
@@ -115,7 +115,7 @@
                       "scroll": {
                         "type": 6,
                         "value": [
-                          0,
+                          -1,
                           0
                         ]
                       },
@@ -221,6 +221,13 @@
           }
         ]
       }
+    },
+    "transparent": true,
+    "outlines": false,
+    "outlineParams": {
+      "color": "#000000",
+      "thickness": 0.005,
+      "opacity": 1
     }
   },
   "id": "9fcc522f-a5ee-4a5c-b774-983425c61b0c"
