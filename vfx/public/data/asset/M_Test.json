@@ -1,0 +1,227 @@
+{
+  "name": "M_Test",
+  "type": "material",
+  "material": {
+    "type": "layered",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "layers": {
+        "type": 21,
+        "element": 23,
+        "value": [
+          {
+            "enabled": true,
+            "type": "textureMask",
+            "outputType": "rgba",
+            "opacity": 1,
+            "blendMode": "normal",
+            "params": {
+              "texture": {
+                "type": 2,
+                "value": "9fa4133a-ceea-4fc5-b524-1d3315e38c45"
+              },
+              "channel": {
+                "type": 12,
+                "value": "red"
+              },
+              "space": {
+                "type": 12,
+                "value": "uv"
+              },
+              "flipU": {
+                "type": 4,
+                "value": false
+              },
+              "flipV": {
+                "type": 4,
+                "value": false
+              },
+              "scale": {
+                "type": 6,
+                "value": [
+                  1,
+                  1
+                ]
+              },
+              "scroll": {
+                "type": 6,
+                "value": [
+                  0,
+                  0
+                ]
+              },
+              "offsetLayers": {
+                "type": 21,
+                "element": 24,
+                "value": []
+              },
+              "offset": {
+                "type": 6,
+                "value": [
+                  1,
+                  0
+                ]
+              },
+              "power": {
+                "type": 1,
+                "value": 1
+              },
+              "invert": {
+                "type": 4,
+                "value": false
+              },
+              "layers": {
+                "type": 21,
+                "element": 24,
+                "value": [
+                  {
+                    "enabled": true,
+                    "type": "textureMask",
+                    "outputType": "alpha",
+                    "opacity": 1,
+                    "blendMode": "normal",
+                    "params": {
+                      "texture": {
+                        "type": 2,
+                        "value": "9fb1d848-a16e-4d8c-8c46-76fa565d5743"
+                      },
+                      "channel": {
+                        "type": 12,
+                        "value": "red"
+                      },
+                      "space": {
+                        "type": 12,
+                        "value": "uv"
+                      },
+                      "flipU": {
+                        "type": 4,
+                        "value": false
+                      },
+                      "flipV": {
+                        "type": 4,
+                        "value": false
+                      },
+                      "scale": {
+                        "type": 6,
+                        "value": [
+                          1,
+                          1
+                        ]
+                      },
+                      "scroll": {
+                        "type": 6,
+                        "value": [
+                          0,
+                          0
+                        ]
+                      },
+                      "offsetLayers": {
+                        "type": 21,
+                        "element": 24,
+                        "value": [
+                          {
+                            "enabled": true,
+                            "type": "textureMask",
+                            "outputType": "alpha",
+                            "opacity": 1,
+                            "blendMode": "normal",
+                            "params": {
+                              "texture": {
+                                "type": 2,
+                                "value": "9fb1d848-a16e-4d8c-8c46-76fa565d5743"
+                              },
+                              "channel": {
+                                "type": 12,
+                                "value": "red"
+                              },
+                              "space": {
+                                "type": 12,
+                                "value": "uv"
+                              },
+                              "flipU": {
+                                "type": 4,
+                                "value": false
+                              },
+                              "flipV": {
+                                "type": 4,
+                                "value": false
+                              },
+                              "scale": {
+                                "type": 6,
+                                "value": [
+                                  1,
+                                  -110.4
+                                ]
+                              },
+                              "scroll": {
+                                "type": 6,
+                                "value": [
+                                  0,
+                                  0
+                                ]
+                              },
+                              "offsetLayers": {
+                                "type": 21,
+                                "element": 24,
+                                "value": []
+                              },
+                              "offset": {
+                                "type": 6,
+                                "value": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              "power": {
+                                "type": 1,
+                                "value": 1
+                              },
+                              "invert": {
+                                "type": 4,
+                                "value": false
+                              },
+                              "layers": {
+                                "type": 21,
+                                "element": 24,
+                                "value": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "offset": {
+                        "type": 6,
+                        "value": [
+                          1,
+                          0
+                        ]
+                      },
+                      "power": {
+                        "type": 1,
+                        "value": 1
+                      },
+                      "invert": {
+                        "type": 4,
+                        "value": false
+                      },
+                      "layers": {
+                        "type": 21,
+                        "element": 24,
+                        "value": []
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "id": "9fcc522f-a5ee-4a5c-b774-983425c61b0c"
+}

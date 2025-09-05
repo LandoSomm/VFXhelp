@@ -1,0 +1,13 @@
+{
+  "name": "Pipe_low",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.1,
+    "collisions": {}
+  },
+  "id": "9fcc6cfc-c5be-4b27-ba44-5a75a32c4f6a",
+  "fileKey": "Pipe_low.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Downloads\\stylized-pipe-set\\source\\Pipe_low.fbx"
+}

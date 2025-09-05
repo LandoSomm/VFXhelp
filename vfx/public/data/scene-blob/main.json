@@ -34,43 +34,6 @@
       "type": "vfx"
     },
     {
-      "id": "b9bd764f-dcee-4084-977f-d59f35bb42bf",
-      "name": "DiscMesh",
-      "assetId": "9fb1d7a5-f810-4b80-bf9b-641f406a3c0d",
-      "position": [
-        27.655388875080924,
-        6.232625281357653,
-        -70.51934159837968
-      ],
-      "scale": [
-        0.05,
-        0.05,
-        0.05
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#cccccc",
-          "materialId": "9fa39fba-1854-47ca-b0fc-77548c04ac3a",
-          "name": ""
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "e866f487-3828-4674-8ba5-e345684f72eb",
       "name": "Landscape",
       "position": [
@@ -115,6 +78,43 @@
       },
       "grass": {
         "layers": []
+      }
+    },
+    {
+      "id": "6c3cbd1f-3e99-433b-a48e-e53032bce92e",
+      "name": "Pipe_low",
+      "assetId": "9fcc6cfc-c5be-4b27-ba44-5a75a32c4f6a",
+      "position": [
+        7.3318268533307975,
+        -3.552713678800501e-15,
+        -84.57476324293339
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9fcc6e53-60b2-4a61-a336-d39b0237a9da",
+          "name": "lambert1"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
       }
     }
   ]

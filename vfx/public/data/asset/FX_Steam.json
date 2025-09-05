@@ -1,0 +1,184 @@
+{
+  "name": "FX_Steam",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "agoevh5",
+        "name": "Steam",
+        "rate": {
+          "type": "continuous",
+          "count": 1,
+          "time": 0.1,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "t94y1kl",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": "2"
+              }
+            }
+          },
+          {
+            "id": "izgajd9",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": "3",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "r6a0jhs",
+            "type": "radialVelocity",
+            "params": {
+              "speed": {
+                "value": "10",
+                "type": 1
+              },
+              "direction": {
+                "value": [
+                  0,
+                  1,
+                  0
+                ],
+                "type": 8
+              },
+              "spread": {
+                "value": "1",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "6hzlrqv",
+            "type": "randomRotation",
+            "params": {
+              "axis": {
+                "value": "XYZ",
+                "type": 12
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "o5nam2j",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": "0",
+                "type": 1
+              },
+              "b": {
+                "value": "1",
+                "type": 1
+              },
+              "ease": {
+                "value": "Bump",
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "0i8g2xo",
+            "type": "scale",
+            "params": {
+              "a": {
+                "value": "1",
+                "type": 1
+              },
+              "b": {
+                "value": "5",
+                "type": 1
+              },
+              "ease": {
+                "value": "OutQuad",
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "mo1pj94",
+            "type": "linearDamping",
+            "params": {
+              "factor": {
+                "value": ".1",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "h3g87fz",
+            "type": "rotate",
+            "params": {
+              "rotation": {
+                "value": [
+                  0,
+                  0,
+                  10
+                ],
+                "type": 8
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          },
+          {
+            "id": "utymeou",
+            "type": "changeColor",
+            "params": {
+              "a": {
+                "value": "#b8b8b8",
+                "type": 10
+              },
+              "b": {
+                "value": "#b0b0b0",
+                "type": 10
+              },
+              "ease": {
+                "type": 22
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "sprite",
+          "texture": "9fcc736d-6bd8-44fd-88ae-afaeb4d661a4",
+          "opacityChannel": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "intensity": 1,
+          "bloom": false,
+          "flipbook": {
+            "enabled": false,
+            "rows": 1,
+            "columns": 1,
+            "fps": 30,
+            "mode": "loop"
+          }
+        }
+      }
+    ]
+  },
+  "id": "9fb83841-4e4e-425a-a4d5-868e64d6a523"
+}

@@ -20,7 +20,7 @@ export default class ScrollingShader extends NodeShader {
     const coord = varyingAttributes.uv.add(vec2(this.speedX, this.speedY).multiplyScalar(timeUniforms.elapsed))
     const textureSample = textureSampler2d(this.texture).sample(coord)
     return {
-      color: rgba(textureSample.rgb.multiply(rgb(this.color)), textureSample.a),
+      color: rgba(textureSample.rgb.multiply(rgb(this.color)), textureSample.r),
       transparent: true,
     
     }
