@@ -24,16 +24,6 @@
         ],
         "initializers": [
           {
-            "id": "3jtz2de",
-            "type": "lifetime",
-            "params": {
-              "duration": {
-                "type": 1,
-                "value": "1"
-              }
-            }
-          },
-          {
             "id": "oeedpto",
             "type": "scale",
             "params": {
@@ -42,20 +32,30 @@
                 "type": 1
               }
             }
+          },
+          {
+            "id": "bjkg40e",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "value": "10",
+                "type": 1
+              }
+            }
           }
         ],
         "behaviours": [
           {
-            "id": "33wxhjw",
-            "type": "changeColor",
+            "id": "0wkd5of",
+            "type": "changeOpacity",
             "params": {
               "a": {
-                "value": "#ff0000",
-                "type": 10
+                "value": 1,
+                "type": 1
               },
               "b": {
-                "value": "#73ff00",
-                "type": 10
+                "value": 0,
+                "type": 1
               },
               "ease": {
                 "type": 22
@@ -73,7 +73,7 @@
           "space": "world",
           "softness": 0,
           "intensity": 1,
-          "bloom": false,
+          "bloom": true,
           "flipbook": {
             "enabled": false,
             "rows": 1,
@@ -82,12 +82,12 @@
             "mode": "loop"
           },
           "scale": 1,
-          "assetId": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
-          "shader": null,
+          "assetId": "9fd3ed53-e042-442f-aefd-cff24c5a4a88",
+          "shader": "PanningVertexShader",
           "shaderParams": {
             "texture": {
               "type": 2,
-              "value": "9fcdd81b-d186-4d26-abe3-ed2e5ff63d35"
+              "value": "9fcdd81c-2190-463e-bc8f-bb4a6555da1c"
             },
             "speedX": {
               "type": 1,
@@ -95,11 +95,11 @@
             },
             "speedY": {
               "type": 1,
-              "value": "-1"
+              "value": "-.5"
             },
             "color": {
               "type": 10,
-              "value": "#ffffff"
+              "value": "#000000"
             }
           }
         }

@@ -1,0 +1,13 @@
+{
+  "name": "Blockout_MainCharacter",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.1,
+    "collisions": {}
+  },
+  "id": "9fd3c651-b424-4007-80aa-475061c04738",
+  "fileKey": "Blockout_MainCharacter.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Downloads\\Blockout_MainCharacter.fbx"
+}

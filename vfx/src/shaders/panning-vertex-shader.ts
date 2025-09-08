@@ -24,11 +24,8 @@ export default class ScrollingShader extends NodeShader {
 
 
   return {
-    color: rgba(
-      textureSample.rgb.multiply(rgb(this.color)),
-      textureSample.a.multiply(vertexColorMask) // 👈 use alpha channel
-    ),
+    color: rgba(textureSample.rgb.multiply(rgb(this.color)),textureSample.r.multiply(vertexColorMask)),
     transparent: true,
-}
+    }
   }
 }

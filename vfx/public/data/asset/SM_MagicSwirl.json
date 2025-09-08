@@ -1,0 +1,12 @@
+{
+  "name": "SM_MagicSwirl",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fd3ed53-e042-442f-aefd-cff24c5a4a88",
+  "fileKey": "SM_MagicSwirl.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_MagicSwirl.fbx"
+}

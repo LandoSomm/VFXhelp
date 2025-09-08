@@ -1,0 +1,12 @@
+{
+  "name": "SM_Donut",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9fd3e9cb-be5e-4671-b255-32f5a8d8e054",
+  "fileKey": "SM_Donut.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\svenn\\Documents\\Houdini\\HoudiniExports\\SM_Donut.fbx"
+}

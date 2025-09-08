@@ -59,55 +59,18 @@
       }
     },
     {
-      "id": "6c3cbd1f-3e99-433b-a48e-e53032bce92e",
-      "name": "Pipe_low",
-      "assetId": "9fcc6cfc-c5be-4b27-ba44-5a75a32c4f6a",
+      "id": "a9d01409-eba0-4aa0-9151-bed8d6f3397d",
+      "name": "Blockout_MainCharacter",
+      "assetId": "9fd3c651-b424-4007-80aa-475061c04738",
       "position": [
-        7.3318268533307975,
-        -3.552713678800501e-15,
-        -84.57476324293339
+        -13.169301015821658,
+        1.085957041666184,
+        -128.79227271038997
       ],
       "scale": [
         0.1,
         0.1,
         0.1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#aaaaaa",
-          "materialId": "9fcc6e53-60b2-4a61-a336-d39b0237a9da",
-          "name": "lambert1"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "ee517984-46a5-45cc-9e70-d534f125ce37",
-      "name": "SM_HalfSphere",
-      "assetId": "9fcdd9f9-be14-42b2-be4e-ea90c3be7ecf",
-      "position": [
-        -13.235912709789112,
-        0,
-        -130.99438086321695
-      ],
-      "scale": [
-        1,
-        1,
-        1
       ],
       "rotation": [
         0,
@@ -125,6 +88,28 @@
         "restitution": 0.5,
         "mass": 1
       }
+    },
+    {
+      "id": "1c4b7f7e-8a31-438a-8d3d-3a874bca50e8",
+      "name": "FX_Circle",
+      "assetId": "9fcbc3da-717a-4c1e-8134-bd52f1c4c02b",
+      "position": [
+        -12.590899371215112,
+        2.012619439333692,
+        -128.16463582591362
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
     }
   ]
 }
