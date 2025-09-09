@@ -82,7 +82,7 @@
             "mode": "loop"
           },
           "scale": 1,
-          "assetId": "9fd3ed53-e042-442f-aefd-cff24c5a4a88",
+          "assetId": "9fd3e9cb-be5e-4671-b255-32f5a8d8e054",
           "shader": "PanningVertexShader",
           "shaderParams": {
             "texture": {
